@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3909458104939313068}
   - component: {fileID: 3910959634254314285}
   - component: {fileID: 9188206804765354291}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player Laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,8 +68,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Offset: {x: 0.0028851777, y: 0.002884984}
+  m_Size: {x: 0.13358223, y: 0.5556824}
   m_Direction: 0
 --- !u!114 &9188206804765354291
 MonoBehaviour:
@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2a0e7c013504b4794242d105c17bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 100
   enemyMissle: 0
   enemyBomb: 0
 --- !u!1 &7594312843224986599
@@ -95,7 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8289440848705833527}
   - component: {fileID: 2291573515621418605}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: laserBlue16
   m_TagString: Untagged
   m_Icon: {fileID: 0}

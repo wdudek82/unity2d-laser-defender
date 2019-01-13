@@ -10,8 +10,13 @@ public class DamageDealer : MonoBehaviour
     {
         get => damage;
     }
-    
-    public void Hit()
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Hit();
+    }
+
+    private void Hit()
     {
         Destroy(gameObject);
     }
